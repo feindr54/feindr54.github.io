@@ -1,0 +1,4 @@
+Plans:
+- add resume and background 
+- add social media images and links 
+- add descriptions of personal projects 

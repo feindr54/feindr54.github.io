@@ -5,10 +5,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import logo from '../cloud.png'
-
-
-
+import logo from '../personal_logo.png'
 
 function NavBar() {
   return (
@@ -20,23 +17,20 @@ function NavBar() {
                 <img src={logo} class="logo" />
               </Link>
             </nav>
-            <Typography variant="h2" class="h2" sx={{ flexGrow: 1 }}>
-                    Purdue Weather App
-                </Typography>
           <Typography variant="h6" class="navbar_buttons" component="div" sx={{ flexGrow: 1 }}>
           <nav>
-              <Link class="remove_link" to="/">Home</Link>
+              <Link class="remove_link" to="/">Background</Link>
             </nav>
           </Typography>
           <Typography variant="h6" class="navbar_buttons" component="div" sx={{ flexGrow: 1 }}>
           <nav>
-              <Link class="remove_link" to="/">What We Do</Link>
+              <Link class="remove_link" to="/">Projects</Link>
             </nav>
           </Typography>
           <Typography variant="h6" class="navbar_buttons" component="div" sx={{ flexGrow: 1 }}>
             <nav>
             <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="remove_link">
-              Contact Us
+              Socials
               </a>
             </nav>
           </Typography>
@@ -46,4 +40,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default NavBar;
