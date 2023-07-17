@@ -1,17 +1,14 @@
 # Gao Changxiang's Personal Webpage!
-Welcome to the official documentation of my webpage! This webpage is written primarily in ReactJS, and hosted by Github Pages. 
+Welcome to the official documentation of my webpage! This webpage is written primarily in NextJS, React, TailwindCSS, and hosted by Github Pages. 
 
 ## Features 
-NIL, nothing satisfactory as of yet :/
+- Header navbar with links to Github, LinkedIn, and my email
 
 ## WIP
 - Home page 
     - Implementation of the navbar 
-        - Buttons functionality
-        - Adding social media buttons on the navbar
-            - linkedIn
-            - Instagram
-            - Github
+        - Adding other social media buttons on the navbar
+            - Instagram (probably not)
     - Design of the page 
         - Background colors
         - Content (like text) 
@@ -19,4 +16,4 @@ NIL, nothing satisfactory as of yet :/
 ## Future plans of implementations 
 - insert resume and personal projects 
 - add descriptions of personal projects 
-- personal blog, diaries
+- personal blog, diaries (perhaps a travel blog?)
