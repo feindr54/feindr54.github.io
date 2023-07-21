@@ -16,6 +16,16 @@
   }
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 body {
   background: #1B191E;
   color: white
