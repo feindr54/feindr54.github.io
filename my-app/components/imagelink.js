@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function ImageLink({src, href, children}) {
+export default function ImageLink({src, href}) {
   return (
     <li className='inline'>
       <Link href={href}>
@@ -10,6 +10,7 @@ export default function ImageLink({src, href, children}) {
           src={src}
           width={48}
           height={48}
+          alt="icon-image"
         />
       </Link>
     </li>
