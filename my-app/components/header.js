@@ -7,7 +7,7 @@ import NavLink from './navlink'
 
 export default function Header() {
   return (
-    <header className='flex flex-row border-b border-white'>
+    <header className='flex flex-row bg-[#232128] shadow-md shadow-black'>
       <div className='pl-8'>
         <ul className='flex flex-row items-center gap-8 m-3'>
           <ImageLink src="/mail.svg" href='mailto:cxgao1729@gmail.com'/>
