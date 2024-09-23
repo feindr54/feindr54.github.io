@@ -6,11 +6,11 @@ const PHOTO_SIZE = 400
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center">
+    <div className="min-h-screen flex flex-col items-center">
       <div className='pt-[64px] text-center'>
         <h1 className='font-bold'>Hi! I am Changxiang Gao</h1>
-        <h3 className='pt-3'>I am a junior at Purdue University,</h3>
-        <h3>and I am majoring in CS.</h3>
+        <h3 className='pt-3'>I am a senior at Purdue University,</h3>
+        <h3>and I am majoring in CS and Mathematics.</h3>
       </div>
       <div className='p-10'>
         <Image
@@ -23,19 +23,24 @@ export default function Home() {
       </div>
       <Section title="Basic Facts about Me">
         <ul className='list-disc list-inside'>
-          <li>I am a rising junior in Purdue University graduating in Spring 2025, and I am majoring in Computer Science and Mathematics.</li>
-          <li>I am a software engineer intern at Carbon Arc Corp, and I have been a Teaching Assistant since Aug 2022.</li>
+          <li>I am a senior in Purdue University graduating in Spring 2025, and I am majoring in Computer Science and Mathematics.</li>
+          <li>I was a software engineer intern at Carbon Arc Corp, and I have been a Teaching Assistant since Aug 2022.</li>
           <li>In my free time, I like to boulder, read about history, and learn new recipes!</li>
         </ul>
       </Section>
       <Section title="Interest Areas in Computer Science">
         <p className=''>
-          I am currently interested in the implementations and applications of Large Language Models (LLMs), and other areas in ML and AI. As I enjoy the process of proving in mathematics, I want to learn about developing algorithms that allows machines to better
-          interpret human language.
+          Currently in the Machine Intelligence and Algorithmic Foundations tracks. I enjoy learning about machine learning, deep learning, and
+          computer vision applications.
         </p>
         <p className='mt-4'>
-          Additionally, I am also unafraid to try new areas in CS too, such as robotics (excited to be enrolled in a robotics course!) and software engineering.
+          Additional interests include robotics and numerical computing.
         </p>
+      </Section>
+      <Section title="Research Projects">
+        <ul className='list-disc list-inside'>
+          <li>Local Scale Equivariance</li>
+        </ul>
       </Section>
       <Section title="Activities and Clubs on Campus">
         <p className=''>
@@ -45,7 +50,7 @@ export default function Home() {
           Paragraph 2
         </p>
       </Section>
-      <Section title="A moment in history I would like to visit">
+      {/* <Section title="A moment in history I would like to visit">
         <p className=''>
           I would love to visit great civilizations at the moment in which they were created, as their creation stories are often shrouded in myths
           and I have always been fascinated by the manner in which these various mythologies were made, as well as the actual events that have
@@ -57,7 +62,7 @@ export default function Home() {
           to see how they were able to run the empire so successfully in the 1400s, as well as witnessing how the common people lived in a world so different
           from typical literature.
         </p>
-      </Section>
+      </Section> */}
       <Section title="Future Project Ideas">
         <p>
           I have a few ideas that are swimming in my mind, but I might get to them in the future.
@@ -79,6 +84,6 @@ export default function Home() {
           For more informal information about me, you can visit my <Link href='/about' className='text-blue-400 hover:underline'>About</Link> page.
         </p>
       </Section>
-    </main>
+    </div>
   )
 }

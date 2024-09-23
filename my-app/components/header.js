@@ -10,7 +10,7 @@ export default function Header() {
     <header className='flex flex-row bg-[#232128] shadow-md shadow-black'>
       <div className='pl-8'>
         <ul className='flex flex-row items-center gap-8 m-3'>
-          <ImageLink src="/mail.svg" href='mailto:cxgao1729@gmail.com'/>
+          <ImageLink src="/mail.svg" href='mailto:gao654@purdue.com'/>
           <ImageLink src="/github.svg" href='https://www.github.com/feindr54'/>
           <ImageLink src="/linkedin.svg" href={'https://www.linkedin.com/in/changxiang-gao/'}/>
         </ul>
